@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'negativespacemedium';
+  src: url('../font/negativespace-webfont.eot');
+  src: url('../font/negativespace-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/negativespace-webfont.woff2') format('woff2'),
+  url('../font/negativespace-webfont.woff') format('woff'),
+  url('../font/negativespace-webfont.ttf') format('truetype'),
+  url('../font/negativespace-webfont.svg#negativespacemedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html,body{
 height: 100%;
 }
@@ -6,12 +19,13 @@ body{
 margin:0;
 padding:0;
 background:#6b6969;
-font-family:"Ubuntu",Helvetica, Arial;
+font-family: "Ubuntu",Helvetica, Arial;
 }
 
 h1{
 color: #fff;
-font-size: 80px;
+font-size: 160px;
+font-family: "negativespacemedium",Helvetica, Arial;
 margin: 0;
 padding-top: 20px;
 }
